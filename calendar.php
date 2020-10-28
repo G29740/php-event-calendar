@@ -9,9 +9,7 @@
    - Highlight of days with an event
    - Creation of modal dialogs for each event to contain details of event such as topic, location and start/end time
    - Clickable cell with an event to display the related modal dialog
-   
-   Author: Leye Jin
-   Date: 25-10-2020
+
    Version: 1.0
 ----------------------------------------------------------------------------------------------------------------------------
 */
@@ -208,7 +206,6 @@ function getCalendar($connection, $m, $y) {
       $modalHTML .= '</div>';
 
       array_push($modalHTMLarray, $modalHTML); //add modal content to an array
-      
    }
 
    //add all modals to calendar output

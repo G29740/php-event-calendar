@@ -15,7 +15,7 @@ Features included are:
 ## How to use
 - Setting up database:
   - Create the database (example "calendar_db") then create a table to contain event records
-  ```
+  ```SQL
   CREATE TABLE `event` (
     `id` int(10) NOT NULL,
     `topic` text NOT NULL,
@@ -29,18 +29,18 @@ Features included are:
   ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
   ```
   - Add some sample data:
-  ```
+  ```SQL
   INSERT INTO `event` (`id`, `topic`, `date`, `streetnumber`, `streetname`, `postalcode`, `locality`, `startTime`, `endTime`) VALUES
   (1, 'Topic 1\r\n1234567890', '2020-11-15', 1, 'Street name', '1234', 'Locality', '12:00:00', '15:00:00'),
   (2, 'AAAAAAA\r\nBBBBBBB\r\nCCCCCCC\r\nDDDDDDD', '2020-11-30', 999, 'Abcd', 'AA5 FF9', 'Abcd defg', '01:00:00', '20:00:00');
   ```
   - Set column `id` as primary key:
-  ```
+  ```SQL
   ALTER TABLE `event`
   ADD PRIMARY KEY (`id`);
   ```
   - Set auto-increment on `id`
-  ```
+  ```SQL
   ALTER TABLE `event`
     MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
   COMMIT;

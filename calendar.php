@@ -1,18 +1,4 @@
 <?php
-/**
-----------------------------------------------------------------------------------------------------------------------------
-   PHP function to create an event calendar.
-   Features included are:
-   - Connection to database to retrieve events
-   - Clickable navigation buttons to display the previous and next month
-   - Highlight of current date
-   - Highlight of days with an event
-   - Creation of modal dialogs for each event to contain details of event such as topic, location and start/end time
-   - Clickable cell with an event to display the related modal dialog
-
-   Version: 1.0
-----------------------------------------------------------------------------------------------------------------------------
-*/
 include 'dbconnection.php';
 
 function getCalendar($connection, $m, $y) {

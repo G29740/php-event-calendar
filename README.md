@@ -1,4 +1,5 @@
 # php-event-calendar
+![image](https://user-images.githubusercontent.com/48676469/97444380-0fa92000-1967-11eb-9c18-cd748e931141.png)
 Simple PHP script to fetch event details from a database and display in a calendar using Bootstrap 4, jQuery, Ajax and MySQL.
 
 ## Description

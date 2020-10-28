@@ -55,3 +55,4 @@ Features included are:
   - Use the selector `#calendar .calendar-day-names-header` to style the header with day names
   - Use the selector `#calendar .calendar-days td` to style the cells (days)
   - Use the selectors `#calendar .eventday`, `#calendar .today`, `#calendar .emptyday` to respectively style the cells with days with events, the cell with has today's day and the cells which are empty
+- Add an image and/or a map by changing the code on **line 176** and **line 177** in `calendar.php`

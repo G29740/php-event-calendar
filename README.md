@@ -1,11 +1,11 @@
 # php-event-calendar
 ![image](https://user-images.githubusercontent.com/48676469/97444380-0fa92000-1967-11eb-9c18-cd748e931141.png)
-Simple PHP script to fetch event details from a database and display in a calendar using Bootstrap 4, jQuery, Ajax and MySQL.
+A simple PHP script to fetch event details from a database and display in a calendar using Bootstrap 4, jQuery, Ajax and MySQL.
 
 ## Description
 Features included are:
 - Connection to database to retrieve events
-- Clickable navigation buttons to display the previous and next month without refreshing page (Ajax)
+- Clickable navigation buttons to display the previous and next month without refreshing the page (Ajax)
 - Highlight of current date
 - Highlight of days with an event
 - Creation of Bootstrap modal dialogs for each event to contain details of event such as topic, location and start/end time
@@ -14,7 +14,7 @@ Features included are:
 
 ## How to use
 - Setting up database:
-  - Create database (example "calendar_db") then create a table to contain event records
+  - Create the database (example "calendar_db") then create a table to contain event records
   ```
   CREATE TABLE `event` (
     `id` int(10) NOT NULL,

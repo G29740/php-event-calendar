@@ -5,7 +5,7 @@ Simple PHP script to fetch event details from a database and display in a calend
 ## Description
 Features included are:
 - Connection to database to retrieve events
-- Clickable navigation buttons to display the previous and next month
+- Clickable navigation buttons to display the previous and next month without refreshing page (Ajax)
 - Highlight of current date
 - Highlight of days with an event
 - Creation of Bootstrap modal dialogs for each event to contain details of event such as topic, location and start/end time
